@@ -46,4 +46,5 @@ pub fn rust_main() -> ! {
     );
     error!(".bss [{:#x}, {:#x})", sbss as usize, ebss as usize);
     panic!("Shutdown machine!");
+    // this is a commit!
 }
